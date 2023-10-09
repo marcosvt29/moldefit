@@ -1,26 +1,44 @@
 
-@media (max-width: 600px) {
 body {
-    color: azure; 
-    background-color: aliceblue;
-     }
-}
-
-header img {
-    width: 100px;
-    right: 100px;
-    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: serif;
+    column-gap: 16px;
+    background: #D4EBF7;
     }
 
-main img {
-    padding: 5px;
+.card {
+    background-color: #F2F3F5;
+    width: 600px;
+    height: inherit;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px #aaa;
     }
 
-.center{
+.card h1 {
+    font-size: 2rem;
     text-align: center;
-}
-.container{
-    padding: 0px 100px;
-   
-}
+    }
+
+.card h2 {
+    font-size: 2rem;
+    color: #444950;
+    text-align: center;
+    }
+
+.card p {
+    text-align: center;
+    font-size: 1rem;
+    color: #444950;
+    padding: 30px;
+    
+    }
+
+ 
+.logo {
+    text-align: center;
+    padding: 10px;
+      }
 
