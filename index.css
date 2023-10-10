@@ -1,6 +1,15 @@
 
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 body {
-    display: block;
+    width: 100%;
     background-color: #fff;
     text-align: center;
     justify-content: center;
@@ -10,6 +19,7 @@ body {
 
 header {
     text-align: center;
+    
 }
 
 
@@ -69,4 +79,11 @@ p {
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
