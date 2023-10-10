@@ -3,6 +3,11 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 
 .container {
       display:flex;
