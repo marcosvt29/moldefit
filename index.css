@@ -9,12 +9,10 @@ html {
 
 
 body {
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-    justify-content: center;
-    margin: 0;
     
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -81,7 +79,7 @@ p {
     padding: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
