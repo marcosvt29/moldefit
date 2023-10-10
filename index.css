@@ -11,25 +11,18 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+   }
 
 
 .container {
-      display:flex;
+      max-width: 620px;
       width:100%;
-        flex-direction: column;
-        }
-
-body {
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    text-align: center;
-    
-}
+           }
 
 
 .div1 {
