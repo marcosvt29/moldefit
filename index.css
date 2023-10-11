@@ -9,15 +9,15 @@ body {
     background: #F7F2F2;
     display: flex;
     justify-content: center;
-    padding: 0 40px;
+    padding: 0 10px;
         }
 
 .container {
+    display: flex;
     max-width: 600px;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     }
-
 
 
 
@@ -28,6 +28,35 @@ h1 {
     padding: 10px;
     
 }
+
+
+h2 {margin: 0;
+    top: auto;
+    background: #DDFFFF;
+    padding: 2px;
+    color: #666666;
+    font-size: 15px;
+  
+    }
+
+.gif {
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+h3 {
+    height: 100px;
+    background: #jjjjjj;
+    padding: 15px;
+
+    
+    
+}
+
+
 
 .content {
     background: white;
@@ -45,9 +74,3 @@ h1 {
     
 }
 
-.pro-logo {
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    
-}
