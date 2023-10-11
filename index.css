@@ -20,7 +20,6 @@ body {
     }
 
 
-
 h1 {
     background: #0047AB;
     color: white;
@@ -32,9 +31,9 @@ h1 {
 
 h2 {margin: 0;
     top: auto;
-    background: #DDFFFF;
+    background: #E3FAFA;
     padding: 5px;
-    color: #666666;
+    color: #333333;
     font-size: 15px;
     }
 
