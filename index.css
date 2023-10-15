@@ -82,3 +82,23 @@ background: #2222;
     box-shadow: 1px 1px 10px #999999;
     }
 
+.item5 {
+    width: 170px;
+    height: 300px;
+    border: .8px solid #999999;
+    margin: 10 auto;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #999999;
+    }
+
+.item6 {
+    width: 170px;
+    height: 300px;
+    border: .8px solid #999999;
+    margin: 10 auto;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #999999;
+    }
+
