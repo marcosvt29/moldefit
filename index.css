@@ -53,6 +53,7 @@ background: #2222;
     margin: 10;
     background-image:url(video.gif);
     background-position:top;
+    background-size: contain;
     
     border-radius: 20px;
     box-shadow: 1px 1px 10px #999999;
